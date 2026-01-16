@@ -1,0 +1,7 @@
+min_evidence_count: 8
+min_confidence_score: 0.6
+max_search_iterations: 3
+volatility_threshold: 0.05
+drawdown_threshold: -0.10
+sentiment_threshold: 0.2
+conflict_threshold: 0.7
