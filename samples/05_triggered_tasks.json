@@ -1,0 +1,28 @@
+[
+  {
+    "id": "d4e5f6a7-b8c9-0123-def0-234567890123",
+    "name": "options_liquidity_analysis",
+    "description": "Investigate options flow and liquidity due to high volatility.",
+    "crew": "OptionsLiquidityCrew",
+    "inputs": {
+      "ticker": "TSLA"
+    },
+    "depends_on": [],
+    "parallelizable": false
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1234-ef01-345678901234",
+    "name": "legal_analysis",
+    "description": "Deep dive into identified legal risks.",
+    "crew": "RegulationLegalCrew",
+    "inputs": {
+      "ticker": "TSLA",
+      "issues": [
+        "regulatory scrutiny",
+        "legal risk"
+      ]
+    },
+    "depends_on": [],
+    "parallelizable": false
+  }
+]

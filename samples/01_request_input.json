@@ -1,0 +1,7 @@
+{
+  "ticker": "TSLA",
+  "horizon": "1m",
+  "risk_profile": "normal",
+  "portfolio_context": "Tech growth portfolio, 15% allocation target",
+  "requested_at": "2024-01-15T10:30:00Z"
+}

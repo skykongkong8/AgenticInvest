@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ev_options_001",
+    "source_type": "analysis",
+    "source_ref": "options_data:TSLA:2024-01-15",
+    "claim": "High put/call ratio of 1.8 indicates bearish sentiment in options market",
+    "confidence": 0.82,
+    "timestamp": "2024-01-15T11:00:00Z",
+    "raw_snippet": "Put/call ratio: 1.8 (above 1.0 threshold), high open interest in $240-$250 puts",
+    "tags": ["options", "sentiment", "negative", "liquidity"]
+  },
+  {
+    "id": "ev_options_002",
+    "source_type": "analysis",
+    "source_ref": "options_data:TSLA:2024-01-15",
+    "claim": "Options liquidity is healthy with $2.5B daily volume",
+    "confidence": 0.88,
+    "timestamp": "2024-01-15T11:00:00Z",
+    "raw_snippet": "Daily options volume: $2.5B, bid-ask spreads tight at 0.5%",
+    "tags": ["options", "liquidity", "positive"]
+  },
+  {
+    "id": "ev_legal_001",
+    "source_type": "filing",
+    "source_ref": "sec.gov:TSLA:8-K:2024-01-10",
+    "claim": "NHTSA investigation could result in recall affecting 2.1M vehicles",
+    "confidence": 0.75,
+    "timestamp": "2024-01-15T11:05:00Z",
+    "raw_snippet": "NHTSA preliminary evaluation covers 2.1M vehicles, potential recall cost $500M-$1B",
+    "tags": ["legal", "regulatory", "risk", "negative"]
+  },
+  {
+    "id": "ev_legal_002",
+    "source_type": "analysis",
+    "source_ref": "legal_analysis:TSLA:2024-01-15",
+    "claim": "Regulatory risk is elevated but manageable, company has strong legal team",
+    "confidence": 0.70,
+    "timestamp": "2024-01-15T11:05:00Z",
+    "raw_snippet": "Tesla has successfully navigated similar investigations in past, strong compliance record",
+    "tags": ["legal", "regulatory", "mitigation", "neutral"]
+  }
+]
