@@ -29,4 +29,15 @@ Scenario 1: Single US Stock (ticker) Event-Driven Deep Research.
 ## Rules
 
 See `docs/crewai_market_research_global_rules.md` for the project constitution.
+
+## Visualization
+
+시스템의 에이전트 구조를 시각화하려면:
+
+```bash
+python examples/visualize_system.py
+```
+
+자세한 가이드는 `docs/crewai_visualization_guide.md`를 참조하세요.
+
 # AgenticInvest

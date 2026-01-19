@@ -9,10 +9,20 @@ dependencies = [
     "typer",
     "python-dotenv",
     "httpx",
+    "mcp",
+    "networkx",
+    "matplotlib",
+    "plotly",
+    "graphviz",
 ]
 
 [project.scripts]
 market-research = "src.cli:app"
+plot = "src.visualization.plot_flow:plot_flow_command"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
 
 [build-system]
 requires = ["setuptools", "wheel"]
