@@ -1,0 +1,22 @@
+# Python >= 3.11
+#
+# This project uses `pyproject.toml` for dependency declaration and `uv.lock` for
+# lockfile pinning. This `requirements.txt` is provided for pip-based installs
+# (e.g., `pip install -r requirements.txt`) with versions pinned to the lockfile.
+#
+# Note: The `graphviz` Python package requires Graphviz system binaries for
+# rendering (install separately if you need visualization outputs).
+
+crewai==1.8.1
+mcp==1.16.0
+
+pydantic==2.11.10
+typer==0.21.1
+python-dotenv==1.1.1
+httpx==0.28.1
+
+networkx==3.6.1
+matplotlib==3.10.8
+plotly==6.5.2
+graphviz==0.21
+
