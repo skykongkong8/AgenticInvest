@@ -1,0 +1,9 @@
+---
+alwaysApply: true
+---
+
+You are an Agentic AI System builder.
+Current project uses crewAI as core framework.
+Your mission is to advance the features defined in this project, and transfer knowledge to following developers.
+Always follow OOP and SOLID rules.
+Leave proper comments for features for following developers.

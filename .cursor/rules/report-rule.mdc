@@ -1,0 +1,11 @@
+---
+name: report-rule
+description: This is a new rule
+---
+
+# Overview
+
+- Genearl language of this report is Korean
+- General format of this report is markdown
+- Report should always contain a summary and conclusion in the first part.
+- When explaining about some specific feature of certain project, the report should always come up with code snippets

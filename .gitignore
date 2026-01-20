@@ -1,27 +1,31 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
+*.py[cod]
+*$py.class
+
+# Virtualenv / uv
 .venv/
-pip-log.txt
-pip-delete-this-directory.txt
+venv/
+.python-version
 
-# Environment variables
-.env
+# Build artifacts
+build/
+dist/
+*.egg-info/
 
-# Testing
+# Caches
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .coverage
 htmlcov/
 
-# Editor directories
-.idea/
-.vscode/
-*.swp
+# Environment files
+.env
 
-# Project specific
-runs/
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
